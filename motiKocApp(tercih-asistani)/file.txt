@@ -1,0 +1,67 @@
+motikoc/
+├── config/
+│   ├── __init__.py
+│   ├── constants.py       # App constants
+│   └── settings.py        # App settings and configurations
+├── core/
+│   ├── __init__.py
+│   ├── auth.py           # Authentication related functions
+│   ├── database.py       # Database initialization and core functions
+│   └── state.py          # Session state management
+├── features/
+│   ├── __init__.py
+│   ├── calendar/
+│   │   ├── __init__.py
+│   │   └── study_calendar.py
+│   ├── career/
+│   │   ├── __init__.py
+│   │   ├── pathfinder.py
+│   │   └── recommendations.py
+│   ├── forum/
+│   │   ├── __init__.py
+│   │   ├── models.py
+│   │   └── views.py
+│   ├── performance/
+│   │   ├── __init__.py
+│   │   └── analytics.py
+│   ├── social/
+│   │   ├── __init__.py
+│   │   └── features.py
+│   ├── university/
+│   │   ├── __init__.py
+│   │   ├── finder.py
+│   │   └── recommender.py
+│   └── voice/
+│       ├── __init__.py
+│       └── guidance.py
+├── models/
+│   ├── __init__.py
+│   ├── achievements.py
+│   ├── questions.py
+│   └── users.py
+├── services/
+│   ├── __init__.py
+│   ├── ai_service.py     # AI/LLM related services
+│   ├── chart_service.py  # Visualization services
+│   └── gamification.py   # Gamification features
+├── ui/
+│   ├── __init__.py
+│   ├── components/
+│   │   ├── __init__.py
+│   │   ├── cards.py
+│   │   └── navigation.py
+│   ├── pages/
+│   │   ├── __init__.py
+│   │   ├── home.py
+│   │   └── settings.py
+│   └── styles/
+│       ├── __init__.py
+│       └── custom.py
+├── utils/
+│   ├── __init__.py
+│   ├── data_processing.py
+│   ├── date_helpers.py
+│   └── validators.py
+├── .env.example
+├── requirements.txt
+└── main.py              # Main application entry point
